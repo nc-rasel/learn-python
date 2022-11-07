@@ -8,7 +8,10 @@ almost_pi = 22/7
 print(almost_pi)
 print(type(almost_pi))
 
-marks = 35
+# this is how you can get input from users
+marks = input("enter your marks: ")
+# we need to convert string to int
+marks = int(marks)
 
 if marks >= 40:
     print("pass")
