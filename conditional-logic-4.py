@@ -17,7 +17,6 @@ else:
     print(n, "is negative and odd number")
 
 
-
 """"
 if n >= 0:
     if n % 2 == 0:

@@ -2,7 +2,6 @@
 # Find out which year is leap year using condition and nested if
 
 
-
 year = input("Enter year: ")
 year = int(year)
 
@@ -13,7 +12,7 @@ year = int(year)
 #     print(year, "is not leap year")
 
 
-# if any year divisible by 100 then it should also divisible by 400 too 
+# if any year divisible by 100 then it should also divisible by 400 too
 # example 2
 """
 if year % 4 == 0:

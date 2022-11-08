@@ -21,6 +21,3 @@ if s1 == s2:
     print(True)
 else:
     print("False")
-
-
-
