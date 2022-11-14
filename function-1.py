@@ -15,12 +15,8 @@ def generate_multipication_table(n):
     print(n, "x 10 =", n * 10)
     # return None
 
+
 n = input("Enter numer: ")
 n = int(n)
 value = generate_multipication_table(n)
 print(value)
-
-
-
-
-

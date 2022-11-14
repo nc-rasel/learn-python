@@ -16,8 +16,8 @@ for i in range(3, 10, 2):
     print(i)
 
 
-
 # Genrate a multipication table using function and loop
+
 
 def generate_multipication_table(n):
     print(n, "x 1 =", n * 1)
@@ -32,14 +32,10 @@ def generate_multipication_table(n):
     print(n, "x 10 =", n * 10)
     # return None
 
+
 n = input("Enter numer: ")
 n = int(n)
 
-for i in range(1, n+1):
+for i in range(1, n + 1):
     generate_multipication_table(i)
     print("")
-
-
-
-
-
