@@ -12,3 +12,14 @@ def common_end(a, b):
   else:
     return False
 
+#String-1 > extra_end
+# def extra_end(str):
+#   if len(str) >= 2:
+#     return str[-2:] * 3
+#   else:
+#     return False
+
+# String-1 > first_half
+# def first_half(str):
+#   n = len(str) // 2
+#   return str[:n]
