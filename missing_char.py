@@ -11,4 +11,4 @@ def missing_char(str, n):
 
 print(missing_char('Python', 0))
 print(missing_char('Python', 3))
-print(missing_char('Python', 5))
+print(missing_char('Python', 15))
