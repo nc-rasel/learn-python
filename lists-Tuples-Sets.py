@@ -37,6 +37,27 @@ print(courses[1:-2:])
 # print all except first one and last two
 # ['Math', 'Science', 'Commerce']
 
+courses.append('Computer')
+# To add an item 
+print(courses)
+# ['History', 'Math', 'Science', 'Commerce', 'Arts', 'Language', 'Computer']
+
+courses.insert(0, 'Mouse')
+# To add an item to a specific location
+print(courses)
+# ['Mouse', 'History', 'Math', 'Science', 'Commerce', 'Arts', 'Language', 'Computer']
+
+
+courses_2 = ['Draw', 'Paint']
+
+# courses.insert(0, courses_2)
+# To add list in a list
+print(courses)
+# [['Draw', 'Paint'], 'Mouse', 'History', 'Math', 'Science', 'Commerce', 'Arts', 'Language', 'Computer']
+
+courses.extend(courses_2)
+print(courses)
+# ['Mouse', 'History', 'Math', 'Science', 'Commerce', 'Arts', 'Language', 'Computer', 'Draw', 'Paint']
 
 # Quick notes 
 # List = mutable 
